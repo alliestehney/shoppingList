@@ -33,3 +33,17 @@ input {
 .price {
 	margin-right: 2%;
 }
+
+.DeleteButton {
+	margin-right: 1%;
+	color: red;
+	font-size: 13px;
+	padding: 0;
+	border: none;
+	background-color: white;
+}
+
+.Total {
+	color: black;
+	text-align: center;
+}

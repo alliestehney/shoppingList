@@ -38,7 +38,7 @@ class ItemsForm extends Component {
 
 	handlePriceChange(event) {
 		this.setState({
-			price: event.target.value
+			price: Number(event.target.value)
 		});
 	}
 
@@ -46,7 +46,7 @@ class ItemsForm extends Component {
 		event.preventDefault();
 		this.props.onSubmit({
 			name: this.state.name,
-			price: this.state.price
+			price: Number(this.state.price)
 		});
 		this.setState({
 			name: "",
