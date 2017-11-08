@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Items {
+	display: flex;
+	justify-content: center;
+}
+
+.itemPrice {
+	margin-left: 1%;
+}
+
+h3 {
+	text-align: center;
+}
+
+form {
+	margin: auto 35%;
+	border: 1px black solid;
+	padding: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 2%;
+}
+
+input {
+	width: 79%;
+}
+
+.price {
+	margin-right: 2%;
+}
