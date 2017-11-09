@@ -7,6 +7,9 @@ body {
 .Items {
 	display: flex;
 	justify-content: center;
+	justify-content: space-between;
+	width: 28%;
+	margin: auto;
 }
 
 .itemPrice {
