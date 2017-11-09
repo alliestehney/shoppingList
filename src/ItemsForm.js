@@ -20,7 +20,7 @@ class ItemsForm extends Component {
 				</p>
 				<p>
 					<label className="price">Price: </label>
-					<input value={this.state.price} onChange={this.handlePriceChange.bind(this)} />
+					<input type="number" value={this.state.price} onChange={this.handlePriceChange.bind(this)} />
 				</p>
 				<p className="FormButton">
 					<button type="submit" className="Add">Add</button>
@@ -37,6 +37,7 @@ class ItemsForm extends Component {
 	}
 
 	handlePriceChange(event) {
+		console.log(typeof event.target.value);
 		this.setState({
 			price: Number(event.target.value)
 		});
