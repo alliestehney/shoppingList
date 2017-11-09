@@ -37,7 +37,7 @@ class App extends Component {
 
         <div className="listItems">
           {itemsList}
-          <p className="Total">{"Total: "+ total }</p>
+          <p className="Total">{"Total: $"+ total }</p>
           <ItemsForm onSubmit={this.addItemToList.bind(this)}/>
         </div>
       </div>

@@ -10,7 +10,7 @@ class Items extends Component {
 					<i className="fa fa-minus-circle" aria-hidden="true"></i>
 				</button>
 				<div className="itemName">{this.props.item.name}</div>
-				<div className="itemPrice">{this.props.item.price}</div>
+				<div className="itemPrice">{"$" + this.props.item.price}</div>
 			</div>
 		);
 	}

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Items {
@@ -26,8 +26,17 @@ form {
 	margin-top: 2%;
 }
 
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
 input {
 	width: 79%;
+	border: none;
+	border-bottom: 0.3px #D3D3D3 solid;
+	outline: none;
 }
 
 .price {
@@ -46,4 +55,26 @@ input {
 .Total {
 	color: black;
 	text-align: center;
+	border-top: 1px black solid;
+	width: 25%;
+	margin: auto;
+	padding-top: 0.5%;
+	margin-top: 0.5%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Add {
+	width: 98%;
+	padding: 2%;
+	background-color: black;
+	color: white;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.Add:hover {
+	background-color: #D3D3D3;
+	cursor: pointer;
 }

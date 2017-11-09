@@ -23,7 +23,7 @@ class ItemsForm extends Component {
 					<input value={this.state.price} onChange={this.handlePriceChange.bind(this)} />
 				</p>
 				<p className="FormButton">
-					<button type="submit">Add</button>
+					<button type="submit" className="Add">Add</button>
 				</p>
 			</form>
 
